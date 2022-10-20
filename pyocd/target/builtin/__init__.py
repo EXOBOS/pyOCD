@@ -121,6 +121,7 @@ from . import target_HC32L07x
 from . import target_MPS3_AN522
 from . import target_MPS3_AN540
 from . import target_RP2040
+from . import target_TQMa117xL
 
 ## @brief Dictionary of all builtin targets.
 #
@@ -279,4 +280,5 @@ BUILTIN_TARGETS = {
           'rp2040' : target_RP2040.RP2040Core0,
           'rp2040_core0' : target_RP2040.RP2040Core0,
           'rp2040_core1' : target_RP2040.RP2040Core1,
+          'tqma117xl': target_TQMa117xL.TQMa117xL
          }
